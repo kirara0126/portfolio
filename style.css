@@ -338,16 +338,17 @@ font-size: 25px;}
 }
 /*01
 -------------------------------*/
+.main01-img03 img{
+  width: 376px; height: 532px
+  }
  .main01-img03 img{
- width: 660px; height: 482pxs
+ width: 528px; height: 386px
  }
  .main01-img04 img{
-  width: 272px; height: 630pxs
+  width: 272px; height: 630px
   }
 
- .main01-img05 img{
-    width: 272px; height: 630pxs
-    }
+  
 /*02
 -------------------------------*/
 .align-center{
