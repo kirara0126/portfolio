@@ -336,7 +336,18 @@ font-size: 25px;}
 .page-contact{
   margin-top: 30px;
 }
+/*01
+-------------------------------*/
+ .main01-img03 img{
+ width: 660px; height: 482pxs
+ }
+ .main01-img04 img{
+  width: 272px; height: 630pxs
+  }
 
+ .main01-img05 img{
+    width: 272px; height: 630pxs
+    }
 /*02
 -------------------------------*/
 .align-center{
