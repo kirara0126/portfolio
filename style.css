@@ -13,6 +13,7 @@ html {
     color: #84CDD3;
 }
 body{
+ 
   background-image: url(images/sp_back.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -33,6 +34,7 @@ a:hover{
   margin: auto;
   padding: 0 1.5rem;
 }
+
 
 /* ヘッダー
 ------------------------------- */
@@ -339,14 +341,20 @@ font-size: 25px;}
 /*01
 -------------------------------*/
 .main01-img03 img{
-  width: 376px; height: 532px
+  width: 376px; height: 532px;
   }
  .main01-img03 img{
- width: 528px; height: 386px
+ width: 528px; height: 386px;
  }
- .main01-img04 img{
-  width: 272px; height: 630px
-  }
+
+
+.main01-img06 img{
+    height: 300px; width: 460px;
+   
+ }
+ .main01-img06 {
+  margin-bottom: 30px;
+ }
 
   
 /*02
@@ -365,9 +373,10 @@ font-size: 25px;}
  .rogo p{
   font-size: 16px;
  }
- .align-center {
+ .align-center p {
   max-width:300px;
   margin: 0 auto;
+  margin-bottom: 30px;
   
  }
  .memo{
@@ -447,6 +456,23 @@ font-size: 25px;}
 }
 .align-center2{
   text-align: center;
+}
+
+
+/*06
+-------------------------------*/
+.main06-img01 img{
+  height: 298px; width: 421px;
+
+
+}
+.main06-img01{
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+.main07-img02 img{
+  height: 676px; width: 231px;
 }
 
 /*デスクトップ版
@@ -598,6 +624,15 @@ body{
     gap: 1rem 1rem;
     grid-template-columns: repeat(3, 0.5fr);
     text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid4{
+  display: grid;
+    gap: 1rem 1rem;
+    grid-template-columns: repeat(2, 0.5fr);
+    text-align: center;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -619,6 +654,22 @@ body{
   margin: 0 auto;
 }
 
+.main06-img01 img{
+  height: 596px; width: 842px;
+
+
+}
+.main06-img01{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.align-center p {
+  max-width: 1200px;
+}
+.main07-img02 img{
+  height: 1014px; width: 347px;
+}
 }
 
 
